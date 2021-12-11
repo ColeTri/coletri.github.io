@@ -1,0 +1,96 @@
+/* Last Edited 12/9/21 by Cole Tribulski*/
+
+p {
+    font-family: 'Noto Serif', serif;
+  }
+  h1 {
+    color: navy;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+  }
+  h2{
+    text-align: center;
+    color: Black;
+    font-family: 'Noto Serif', serif;
+  
+  }
+  span{
+    color: green;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 4px;
+  }
+  ul.a {
+    list-style-type: circle;
+  }
+  img {
+    height:50px;
+    width:125px;
+  }
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*navigation bar*/
+  .topnav {
+    overflow: hidden;
+    background-color: navy;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: orange;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: navy;
+    color: white;
+  }
+  /*end Nav bar*/
+  
+  /*Columns*/
+  * {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+    padding: 10px;
+    border-radius: 30px;
+  
+  }
+  
+  .footer {
+     position: inherit;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: lightblue;
+     color: Black;
+     text-align: center;
+  }
+  
+  .header {
+    padding: 20px;
+    text-align: center;
+
+    color: white;
+    font-size: 15px;
+  }
+  
+  
